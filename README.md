@@ -4,7 +4,7 @@
 
 This is my **Day 13** of the [Frontend Mentor](https://www.frontendmentor.io/home) Challenge endurance.
 
-Thanks for checking out this front-end coding challenge. This is the Live preview solution of the [Base Apparel Coming Soon Page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) challenge by [Frontend Mentor](https://www.frontendmentor.io/home). 
+Thanks for checking out this front-end coding challenge. This is the Live preview solution of the [Huddle Landing Page](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0) challenge by [Frontend Mentor](https://www.frontendmentor.io/home). 
 
 ## Focusig on 👀
 
