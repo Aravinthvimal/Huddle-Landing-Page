@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            Violet: 'hsl(257, 40%, 49%)',
+            SoftMagenta: 'hsl(300, 69%, 71%)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+
+
+    @media only screen and (min-width: 1024px) {
+      body {
+        background: url("./images/bg-desktop.svg"), hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    }
+    
+    @media only screen and (min-width: 375px ) and (max-width: 1023px) {
+      body {
+        background: url("./images/bg-mobile.svg"), hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: 100%;
+      }
+    }
+
+  </style>
+  <title> Huddle landing page </title>
+</head>
+<body class="text-white">
+  <main class="lg:flex flex-col my-6 lg:my-12 lg:mx-20">
+    <img src="./images/logo.svg" alt="logo" class="mx-12 w-32 lg:w-52">
+    <div class="lg:flex items-center gap-12 w-screen my-16 lg:my-24 px-8 lg:px-0">
+      <img src="./images/illustration-mockups.svg" alt="mockup-svg" class="lg:w-7/12">
+      <div class="flex flex-col lg:text-left text-center items-center lg:items-start gap-4 lg:gap-8 mt-12 lg:mt-0 lg:relative -top-16 lg:w-1/2">
+        <h3 style="font-family: 'Poppins', sans-serif;" class="lg:w-10/12 text-2xl lg:text-5xl font-semibold leading-relaxed"> Build The Community Your Fans Will Love </h3>
+        <p style="font-family: 'Open Sans', sans-serif;" class=" lg:text-xl lg:w-11/12"> Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+          Create connections with your users as you engage in genuine discussion.  
+        </p>
+        <button style="box-shadow: 0 7px 20px hsl(257, 53%, 34%); font-family: 'Poppins', sans-serif;" 
+          type="button" 
+          class="transition duration-300 ease-out active:ease-in-out active:bg-SoftMagenta active:text-white hover:ease-in-out hover:bg-SoftMagenta hover:text-white bg-white 
+          py-3 text-Violet text-sm lg:text-lg w-3/4 lg:w-2/5 rounded-full outline-none mt-4 lg:mt-0">
+          Register 
+        </button>
+      </div>
+    </div>
+    <div class="ml-32 lg:ml-0 lg:absolute lg:-bottom-20 lg:right-20 text-xs lg:text-lg h-16 lg:w-16 flex items-center gap-4">
+      <a href="#" class="fa fa-facebook transition duration-300 ease-out hover:ease-in-out hover:text-SoftMagenta hover:border-SoftMagenta p-2 lg:p-3 px-3 lg:px-4 border-2 rounded-full"></a>
+      <a href="#" class="fa fa-twitter transition duration-300 ease-out hover:ease-in-out hover:text-SoftMagenta hover:border-SoftMagenta p-2 lg:p-3 border-2 rounded-full"></a>
+      <a href="#" class="fa fa-instagram transition duration-300 ease-out hover:ease-in-out hover:text-SoftMagenta hover:border-SoftMagenta p-2 lg:p-3 border-2 rounded-full"></a>
+    </div>
+  </main>
+</body>
+</html>
